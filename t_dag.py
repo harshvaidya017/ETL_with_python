@@ -17,7 +17,7 @@ default_args = {
 }
 
 dag = DAG(
-    'twitter_dag',
+    't_dag',
     default_args=default_args,
     description='Our first DAG with ETL process!',
     schedule_interval=timedelta(days=1),
